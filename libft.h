@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/03 11:20:53 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/03 11:24:15 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
-int				ft_strlen(const char *s);
+int	ft_strlen(const char *s);
 
 #endif
