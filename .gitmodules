@@ -1,3 +1,9 @@
 [submodule "libft-war-machine"]
 	path = libft-war-machine
 	url = https://github.com/0x050f/libft-war-machine.git
+[submodule "libftTester"]
+	path = libftTester
+	url = https://github.com/Tripouille/libftTester.git
+[submodule "libft-unit-test"]
+	path = libft-unit-test
+	url = https://github.com/alelievr/libft-unit-test.git
