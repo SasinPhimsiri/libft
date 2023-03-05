@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/04 15:59:43 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/05 11:48:30 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,6 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 int		ft_isascii(int c);
 int		ft_isalnum(int c);
+char	*ft_strdup(const char *src);
 
 #endif

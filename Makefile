@@ -6,7 +6,7 @@
 #    By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/03 11:09:33 by sphimsir          #+#    #+#              #
-#    Updated: 2023/03/04 16:02:06 by sphimsir         ###   ########.fr        #
+#    Updated: 2023/03/05 11:48:48 by sphimsir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,13 +20,15 @@ RM = rm -f
 FILES = ft_strlen \
 		ft_strlcpy \
 		ft_strlcat \
+		ft_strdup \
 		ft_tolower \
 		ft_toupper \
 		ft_isalpha \
 		ft_isdigit \
 		ft_isprint \
 		ft_isascii \
-		ft_isalnum
+		ft_isalnum 
+
 
 SRCS_DIR = ./
 SRCS = $(addprefix $(SRCS_DIR), $(addsuffix .c, $(FILES)))

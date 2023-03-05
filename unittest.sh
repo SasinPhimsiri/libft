@@ -1,4 +1,6 @@
 #!/bin/bash
+clear
+make fclean
 make
 # Define the directories that contain the tests
 TEST_DIRS=("libft-unit-test" "libftTester" "libft-war-machine")
@@ -20,6 +22,7 @@ do
         make strlen \
                 strlcpy \
                 strlcat \
+                strdup \
                 tolower \
                 toupper \
                 isalpha \
@@ -33,6 +36,6 @@ do
     if [ $dir == "libft-war-machine" ]
     then 
         cd "$dir"
-        bash grademe.sh 
+        bash grademe.sh
     fi
 done
