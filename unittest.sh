@@ -32,7 +32,9 @@ do
                 isalnum \
                 calloc \
                 strchr \
-                strrchr
+                strrchr \
+                bzero
+
         cd ..
     fi
     # test ska42/libft-war-machine
