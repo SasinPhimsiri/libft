@@ -6,27 +6,17 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/06 16:03:56 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/06 16:57:23 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-// #define SIZE_MAX          UINTPTR_MAX
-// #if __LP64__
-// #define __WORDSIZE 64
-// #else
-// #define __WORDSIZE 32
-// #endif
-// #if __WORDSIZE == 64
-// #define UINTPTR_MAX       18446744073709551615UL
-// #else
-// #define UINTPTR_MAX       4294967295UL
-// #endif
 # include <stdio.h>
 # include <unistd.h>
 # include <stddef.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 typedef struct s_list
 {
@@ -52,5 +42,6 @@ void	ft_bzero(void *s, size_t n);
 int		ft_atoi(const char *s);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
+void	*ft_memset(void *b, int c, size_t len);
 
 #endif
