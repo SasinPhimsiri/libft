@@ -33,7 +33,8 @@ do
                 calloc \
                 strchr \
                 strrchr \
-                bzero
+                bzero \
+                atoi
 
         cd ..
     fi
