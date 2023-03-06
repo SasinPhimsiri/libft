@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/04 16:00:14 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/05 12:07:59 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/05 21:52:24 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	size_t	i;
 
 	i = 0;
-	if (dstsize < 1)
+	if (dstsize <= 0)
 		return (ft_strlen(src));
 	while (src[i] && i < dstsize - 1)
 	{

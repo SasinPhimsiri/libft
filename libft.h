@@ -6,13 +6,23 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/05 11:48:30 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/06 10:19:19 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
+#define SIZE_MAX          UINTPTR_MAX
+#if __LP64__
+#define __WORDSIZE 64
+#else
+#define __WORDSIZE 32
+#endif
+#if __WORDSIZE == 64
+#define UINTPTR_MAX       18446744073709551615UL
+#else
+#define UINTPTR_MAX       4294967295UL
+#endif
 # include <unistd.h>
 # include <stdlib.h>
 
@@ -33,5 +43,8 @@ int		ft_isprint(int c);
 int		ft_isascii(int c);
 int		ft_isalnum(int c);
 char	*ft_strdup(const char *src);
+void	*ft_calloc(size_t count, size_t size);
+char	*ft_strchr(const char *s, int c);
+char	*ft_strrchr(const char *s, int c);
 
 #endif

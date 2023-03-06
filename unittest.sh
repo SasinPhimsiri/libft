@@ -29,7 +29,10 @@ do
                 isdigit \
                 isprint \
                 isascii \
-                isalnum
+                isalnum \
+                calloc \
+                strchr \
+                strrchr
         cd ..
     fi
     # test ska42/libft-war-machine
