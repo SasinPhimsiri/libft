@@ -37,6 +37,7 @@ do
                 atoi \
                 strncmp \
                 strnstr \
+                memset
 
         cd ..
     fi
