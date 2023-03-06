@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/06 15:07:57 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/06 15:18:58 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,6 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 void	ft_bzero(void *s, size_t n);
 int		ft_atoi(const char *s);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
 
 #endif

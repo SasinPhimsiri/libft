@@ -6,7 +6,7 @@
 #    By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/03 11:09:33 by sphimsir          #+#    #+#              #
-#    Updated: 2023/03/06 14:42:25 by sphimsir         ###   ########.fr        #
+#    Updated: 2023/03/06 15:19:03 by sphimsir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -32,7 +32,8 @@ FILES = ft_strlen \
 		ft_strchr \
 		ft_strrchr \
 		ft_bzero \
-		ft_atoi
+		ft_atoi \
+		ft_strncmp
 
 
 

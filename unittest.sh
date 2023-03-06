@@ -34,7 +34,8 @@ do
                 strchr \
                 strrchr \
                 bzero \
-                atoi
+                atoi \
+                strncmp
 
         cd ..
     fi
