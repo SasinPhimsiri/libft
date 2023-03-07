@@ -37,7 +37,9 @@ do
                 atoi \
                 strncmp \
                 strnstr \
-                memset
+                memset \
+                memcpy \
+                memmove
 
         cd ..
     fi
