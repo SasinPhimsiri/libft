@@ -6,7 +6,7 @@
 #    By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/03 11:09:33 by sphimsir          #+#    #+#              #
-#    Updated: 2023/03/06 16:41:24 by sphimsir         ###   ########.fr        #
+#    Updated: 2023/03/07 21:46:45 by sphimsir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,9 @@ FILES = ft_strlen \
 		ft_atoi \
 		ft_strncmp \
 		ft_strnstr \
-		ft_memset
+		ft_memset \
+		ft_memcpy \
+		ft_memmove
 
 
 SRCS_DIR = ./
