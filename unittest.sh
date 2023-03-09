@@ -39,7 +39,9 @@ do
                 strnstr \
                 memset \
                 memcpy \
-                memmove
+                memmove \
+                memchr \
+                memcmp
 
         cd ..
     fi
