@@ -19,7 +19,8 @@ do
     if [ $dir == "libftTester" ]
     then
         cd "$dir"
-        make strlen \
+        make    substr \
+                strlen \
                 strlcpy \
                 strlcat \
                 strdup \
@@ -41,7 +42,8 @@ do
                 memcpy \
                 memmove \
                 memchr \
-                memcmp
+                memcmp \
+                itoa
 
         cd ..
     fi
