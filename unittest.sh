@@ -19,7 +19,9 @@ do
     if [ $dir == "libftTester" ]
     then
         cd "$dir"
-        make    substr \
+        make    strmapi \
+                strjoin \
+                substr \
                 strlen \
                 strlcpy \
                 strlcat \

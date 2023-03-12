@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/03 10:57:27 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/11 21:49:24 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/03/12 22:57:27 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,7 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 char	*ft_itoa(int n);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strmapi(const char *s, char (*f)(unsigned int, char));
 
 #endif

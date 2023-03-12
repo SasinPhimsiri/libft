@@ -6,7 +6,7 @@
 #    By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/03 11:09:33 by sphimsir          #+#    #+#              #
-#    Updated: 2023/03/11 21:49:30 by sphimsir         ###   ########.fr        #
+#    Updated: 2023/03/12 22:57:32 by sphimsir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,9 @@ FILES = ft_strlen \
 		ft_memchr \
 		ft_memcmp \
 		ft_itoa \
-		ft_substr
+		ft_substr \
+		ft_strjoin \
+		ft_strmapi
 
 
 
