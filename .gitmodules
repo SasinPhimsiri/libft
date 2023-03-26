@@ -7,6 +7,3 @@
 [submodule "libft-unit-test"]
 	path = libft-unit-test
 	url = https://github.com/alelievr/libft-unit-test.git
-[submodule "Othello42-libft-tester"]
-	path = Othello42-libft-tester
-	url = https://github.com/Othello42/Othello42-libft-tester.git
