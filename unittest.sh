@@ -19,7 +19,8 @@ do
     if [ $dir == "libftTester" ]
     then
         cd "$dir"
-        make    strmapi \
+        make    striteri \
+                strmapi \
                 strjoin \
                 substr \
                 strlen \
@@ -49,7 +50,6 @@ do
 
         cd ..
     fi
-    # test ska42/libft-war-machine
     if [ $dir == "libft-war-machine" ]
     then 
         cd "$dir"
