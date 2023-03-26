@@ -6,7 +6,7 @@
 #    By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/03/03 11:09:33 by sphimsir          #+#    #+#              #
-#    Updated: 2023/03/12 22:57:32 by sphimsir         ###   ########.fr        #
+#    Updated: 2023/03/26 17:45:39 by sphimsir         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,14 @@ CFLAGS = -Wall -Wextra -Werror
 AR = ar rcs
 RM = rm -f
 
-FILES = ft_strlen \
+FILES = ft_split \
+		ft_strtrim \
+		ft_putnbr_fd \
+		ft_putendl_fd \
+		ft_putstr_fd \
+		ft_putchar_fd \
+		ft_striteri \
+		ft_strlen \
 		ft_strlcpy \
 		ft_strlcat \
 		ft_strdup \
@@ -44,7 +51,6 @@ FILES = ft_strlen \
 		ft_substr \
 		ft_strjoin \
 		ft_strmapi
-
 
 
 SRCS_DIR = ./
