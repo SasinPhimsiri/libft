@@ -19,7 +19,13 @@ do
     if [ $dir == "libftTester" ]
     then
         cd "$dir"
-        make    striteri \
+        make    split \
+                strtrim \
+                putnbr_fd \
+                putendl_fd \
+                putstr_fd \
+                putchar_fd \
+                striteri \
                 strmapi \
                 strjoin \
                 substr \
@@ -47,7 +53,6 @@ do
                 memchr \
                 memcmp \
                 itoa
-
         cd ..
     fi
     if [ $dir == "libft-war-machine" ]
