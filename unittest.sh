@@ -19,40 +19,7 @@ do
     if [ $dir == "libftTester" ]
     then
         cd "$dir"
-        make    split \
-                strtrim \
-                putnbr_fd \
-                putendl_fd \
-                putstr_fd \
-                putchar_fd \
-                striteri \
-                strmapi \
-                strjoin \
-                substr \
-                strlen \
-                strlcpy \
-                strlcat \
-                strdup \
-                tolower \
-                toupper \
-                isalpha \
-                isdigit \
-                isprint \
-                isascii \
-                isalnum \
-                calloc \
-                strchr \
-                strrchr \
-                bzero \
-                atoi \
-                strncmp \
-                strnstr \
-                memset \
-                memcpy \
-                memmove \
-                memchr \
-                memcmp \
-                itoa
+        make a
         cd ..
     fi
     if [ $dir == "libft-war-machine" ]
@@ -61,3 +28,47 @@ do
         bash grademe.sh
     fi
 done
+
+# lstmap \
+# lstiter \
+# lstclear \
+# lstdelone \
+# lstadd_back \
+# lstlast \
+# lstsize \
+# lstadd_front \
+# lstnew \
+# split \
+# strtrim \
+# putnbr_fd \
+# putendl_fd \
+# putstr_fd \
+# putchar_fd \
+# striteri \
+# strmapi \
+# strjoin \
+# substr \
+# strlen \
+# strlcpy \
+# strlcat \
+# strdup \
+# tolower \
+# toupper \
+# isalpha \
+# isdigit \
+# isprint \
+# isascii \
+# isalnum \
+# calloc \
+# strchr \
+# strrchr \
+# bzero \
+# atoi \
+# strncmp \
+# strnstr \
+# memset \
+# memcpy \
+# memmove \
+# memchr \
+# memcmp \
+# itoa
