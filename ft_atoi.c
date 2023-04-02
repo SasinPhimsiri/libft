@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 14:40:49 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/06 14:55:04 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/04/02 10:36:59 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,15 +24,10 @@ int	ft_atoi(const char *s)
 	while (*s <= 32)
 		s++;
 	if (*s == '-' || *s == '+')
-	{
-		if (*s == '-')
+		if (*s++ == '-')
 			sign = -1;
-		s++;
-	}
 	while (ft_isdigit(*s))
-	{
 		result = result * 10 + (*s++ - '0');
-	}
 	result *= sign;
 	return (result);
 }
