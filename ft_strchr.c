@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 09:45:59 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/04/02 11:37:34 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/04/02 11:39:51 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strchr(const char *s, int c)
 {
 	while (*s != (char)c)
-		if (*s++ == '\0')
+		if (!*s++)
 			return (0);
 	return ((char *)s);
 }
