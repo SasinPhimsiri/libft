@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/07 21:09:56 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/07 21:39:40 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/04/06 11:05:41 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	const char	*dp;
+	char		*dp;
 	const char	*sp;
 
 	dp = dst;
@@ -22,6 +22,6 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	if (!dst && !src)
 		return (NULL);
 	while (n--)
-		*(char *)dp++ = *sp++;
+		*dp++ = *sp++;
 	return (dst);
 }
