@@ -6,7 +6,7 @@
 /*   By: sphimsir <sphimsir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/26 15:38:19 by sphimsir          #+#    #+#             */
-/*   Updated: 2023/03/26 21:23:16 by sphimsir         ###   ########.fr       */
+/*   Updated: 2023/04/15 11:18:45 by sphimsir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static char	**ft_all_free(char **str, size_t size)
 static char	*ft_copy_word(char const *s, char c)
 {
 	size_t	n_str;
-	char	*word;
+	char	*copied_word;
 
 	n_str = 0;
 	while (*s && *s != c)
@@ -37,11 +37,11 @@ static char	*ft_copy_word(char const *s, char c)
 		n_str++;
 		s++;
 	}
-	word = malloc(sizeof(char) * (n_str + 1));
-	if (!word)
+	copied_word = malloc(sizeof(char) * (n_str + 1));
+	if (!copied_word)
 		return (NULL);
-	ft_strlcpy(word, s - n_str, n_str + 1);
-	return (word);
+	ft_strlcpy(copied_word, s - n_str, n_str + 1);
+	return (copied_word);
 }
 
 size_t	ft_count_word(char const *s, char c)
